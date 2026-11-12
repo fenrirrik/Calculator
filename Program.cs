@@ -48,7 +48,9 @@ namespace Calculator
 
         static void InputB()
         {
-            Console.WriteLine("Функция пока не реализована");
+            Console.Write("Введите B: ");
+            while (!double.TryParse(Console.ReadLine(), out b))
+                Console.Write("Это не число, введите B ещё раз: ");
         }
 
         static void Add()
