@@ -66,7 +66,10 @@ namespace Calculator
 
         static void Divide()
         {
-            Console.WriteLine("Функция пока не реализована");
+            if (b == 0)
+                Console.WriteLine("Ошибка: деление на ноль");
+            else
+                Console.WriteLine($"A / B = {a / b}");
         }
     }
 }
