@@ -56,7 +56,7 @@ namespace Calculator
 
         static void Subtract()
         {
-            Console.WriteLine("Функция пока не реализована");
+            Console.WriteLine($"A - B = {a - b}");
         }
 
         static void Multiply()
