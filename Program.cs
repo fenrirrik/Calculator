@@ -51,7 +51,7 @@ namespace Calculator
 
         static void Add()
         {
-            Console.WriteLine("Функция пока не реализована");
+            Console.WriteLine($"A + B = {a + b}");
         }
 
         static void Subtract()
