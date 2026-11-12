@@ -61,7 +61,7 @@ namespace Calculator
 
         static void Multiply()
         {
-            Console.WriteLine("Функция пока не реализована");
+            Console.WriteLine($"A * B = {a * b}");
         }
 
         static void Divide()
